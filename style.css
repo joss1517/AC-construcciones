@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #00141f;
+  background-color: #00131c;
 }
 
 h1 {
@@ -22,14 +22,26 @@ h1 {
 }
 
 .hero {
-  background-image: url(./imges/hero1.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  /*  background-color: #1b1717; */
   height: 900px;
 }
 
+.hero-img {
+  background-color: #f4a700;
+  width: 100%;
+  height: 21rem;
+  padding: 0.5rem;
+  display: block;
+}
+
+.hero-img img {
+  max-width: 230px;
+  height: 20rem;
+  margin: 0 1.3px 0 1.3px;
+}
+
 .hero-container {
-  background-color: rgba(0, 0, 0, 0.789);
+  /*  background-color: rgba(0, 0, 0, 0.789); */
   width: 80%;
   height: 50vh;
   margin: 3rem auto 0 auto;
@@ -40,10 +52,10 @@ h1 {
 }
 
 .hero-container p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 700;
-  font-size: 1.3rem;
-  color: #acacac;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -154,20 +166,20 @@ h1 {
 }
 
 .nosotros-container h2 {
-  font-size: 3rem;
-  color: #acacac;
+  font-size: 2rem;
+  color: #cdcdcd;
   font-weight: 300;
 }
 .nosotros-container p {
   font-size: 1.2rem;
-  color: #acacac;
+  color: #cdcdcd;
   margin-top: 2rem;
 }
 .img-nosotros {
   width: 800px;
   height: auto;
   border-radius: 4rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-left: 10rem;
 }
 /* Servicios */
@@ -204,7 +216,7 @@ h1 {
 .f-container {
   width: 100%;
   height: 2.5rem;
-  background-color: rgba(0, 0, 0, 0.7058823529);
+  background-color: rgba(0, 0, 0, 0.85);
   position: fixed;
   bottom: 0;
   margin-top: 10px;
