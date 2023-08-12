@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #00131c;
+  background-color: #011017;
 }
 
 h1 {
@@ -30,6 +30,7 @@ h1 {
   background-color: #f4a700;
   width: 100%;
   height: 21rem;
+  margin-top: 1rem;
   padding: 0.5rem;
   display: block;
 }
@@ -56,9 +57,13 @@ h1 {
   font-weight: 500;
   font-size: 1.2rem;
   color: #ffffff;
-  text-align: center;
+  text-align: justify;
 }
-
+.hero-container h2 {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
 /* header */
 .header {
   background-color: rgba(0, 0, 0, 0.9);
@@ -67,7 +72,7 @@ h1 {
   height: 70px;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 3;
 }
 
 .nav {
@@ -182,7 +187,59 @@ h1 {
   margin-top: 1rem;
   margin-left: 10rem;
 }
-/* Servicios */
+/*                             Proyectos                                  */
+.container-proyect {
+  background-color: #000000;
+  width: 95%;
+  height: 650px;
+  border: thin solid #f49f00;
+  border-radius: 3rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.car-text {
+  /* background-color: #ffffff1a; */
+  width: 50%;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.car-text h2 {
+  margin: 2rem;
+  color: #f49f00;
+}
+
+.car-text p {
+  padding: 2rem;
+  text-align: justify;
+}
+
+.carousel {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d-block {
+  margin: auto;
+  margin-top: 2.5rem;
+}
+
+.carousel-item img {
+  max-width: 550px;
+  max-height: 550px;
+}
+
+/*                             Servicios                                  */
 .div-container {
   /* background-color: #ffa200; */
   width: 90%;
