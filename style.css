@@ -22,7 +22,7 @@ h1 {
 }
 
 .hero {
-  background-color: #1b1717;
+  /* background-color: #1b1717; */
   height: 900px;
 }
 
@@ -323,7 +323,7 @@ h1 {
 }
 
 /* *****************************media******************************* */
-@media (min-width: 360px) {
+@media (max-width: 540px) {
   .hero {
     background-color: transparent;
     height: 100%;
